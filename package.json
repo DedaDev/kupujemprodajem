@@ -1,0 +1,32 @@
+{
+  "name": "kp_module",
+  "version": "1.0.0",
+  "description": "Node module wrapper for kupujemprodajem.com website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DedaDev/kupujemprodajem.git"
+  },
+  "keywords": [
+    "kupujemprodajem",
+    "kp"
+  ],
+  "author": "DedaDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DedaDev/kupujemprodajem/issues"
+  },
+  "homepage": "https://github.com/DedaDev/kupujemprodajem#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "ws": "^7.2.0"
+  }
+}
